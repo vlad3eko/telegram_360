@@ -1,0 +1,7 @@
+.block {
+    @apply mb-33 flex flex-col gap-10 mx-auto
+}
+
+.block-el {
+    @apply mr-13 mb-20
+}
