@@ -6,10 +6,10 @@
     <Button variant="inverse">
       Кнопка
     </Button>
-    <Button variant="primary">
+    <Button variant="primary" :primary-with-icon-right="true">
       Кнопка
     </Button>
-    <Button variant="primary">
+    <Button variant="inverse" :inverse-with-icon-left="true">
       Кнопка
     </Button>
     <Button variant="primary">
