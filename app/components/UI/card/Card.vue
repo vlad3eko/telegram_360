@@ -1,11 +1,49 @@
 <template>
-  <div>
-
+  <div class="p-5 rounded-2xl gradient-card-active cursor-pointer
+              border hover:border-accent-foreground
+              bg-card hover:bg-card-foreground
+              text-accent-foreground hover:text-muted-foreground">
+    <CardHeader
+        v-if="props.cardHeaderImg
+              || props.cardHeaderTitle
+              || props.cardHeaderStatus"
+        :card-header-img="props.cardHeaderImg"
+        :card-header-title="props.cardHeaderTitle"
+        :card-header-status="props.cardHeaderStatus"/>
+    <CardTitle
+        v-if="props.cardTitle"
+        :card-title="props.cardTitle"/>
+    <CardContent
+        v-if="props.cardSubTitle
+              || props.cardSubImage
+              || props.cardSubDescription
+              || cardTrigger"
+        :card-sub-title="props.cardSubTitle"
+        :card-sub-image="props.cardSubImage"
+        :card-sub-description="props.cardSubDescription"
+        :card-trigger="props.cardTrigger"/>
   </div>
 </template>
 
 <script lang="ts" setup>
 
+import CardContent from "~/components/UI/card/CardContent.vue";
+import CardTitle from "~/components/UI/card/CardTitle.vue";
+import CardHeader from "~/components/UI/card/CardHeader.vue";
+
+
+export interface ICard {
+  cardHeaderImg?: string
+  cardHeaderTitle?: string
+  cardHeaderStatus?: string
+  cardTitle?: string
+  cardSubTitle?: string
+  cardSubDescription?: string
+  cardSubImage?: string
+  cardTrigger?: string
+}
+
+const props = defineProps<ICard>()
 </script>
 
 <style scoped>

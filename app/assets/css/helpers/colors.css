@@ -1,0 +1,14 @@
+.gradient-card-active {
+    animation: visibility 1s none;
+    @apply bg-gradient-to-r from-primary-foreground from-1%  via-primary hover:via-40% to-accent-foreground to-90%
+}
+
+.gradient-card-disabled {
+    animation: visibility 1s none;
+    @apply bg-gradient-to-r from-primary-foreground from-1%  to-accent-foreground to-90%
+}
+
+@keyframes visibility {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
