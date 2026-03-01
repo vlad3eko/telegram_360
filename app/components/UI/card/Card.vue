@@ -1,8 +1,8 @@
 <template>
-  <div class="p-5 rounded-2xl gradient-card-active cursor-pointer
+  <div class="p-5 rounded-2xl cursor-pointer
               border hover:border-accent-foreground
-              bg-card hover:bg-card-foreground
-              text-accent-foreground hover:text-muted-foreground">
+              bg-card hover:bg-accent
+              text-accent-foreground hover:text-foreground">
     <CardHeader
         v-if="props.cardHeaderImg
               || props.cardHeaderTitle

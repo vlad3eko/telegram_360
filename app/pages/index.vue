@@ -1,17 +1,10 @@
 <template>
-
-<ButtonsComponent/>
-<CardsComponent/>
-
+  <div>
+    main page
+    <NuxtLink to="ui">UI</NuxtLink>
+  </div>
 </template>
 
 <script lang="ts" setup>
 
-import ButtonsComponent from "~/components/ButtonsComponent.vue";
-import CardsComponent from "~/components/CardsComponent.vue";
-
 </script>
-
-<style scoped>
-
-</style>

@@ -27,3 +27,11 @@ h6 {
     font-weight: 600;
     font-size: 8px;
 }
+
+.small {
+    font-size: 0.875rem;
+}
+
+.tiny {
+    font-size: 0.75rem;
+}
