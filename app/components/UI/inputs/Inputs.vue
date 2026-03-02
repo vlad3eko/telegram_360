@@ -23,7 +23,7 @@ const props = withDefaults(defineProps<IInputs>(), {
   disabled: false
 })
 
-const classes = 'bg-card p-2 rounded-2xl'
+const classes = 'bg-card p-2 rounded-2xl w-full min-w-15 border'
 const isDisabled = props.disabled ? 'bg-foreground/10 cursor-not-allowed' : ''
 
 const placeholders = computed(() => {
@@ -35,7 +35,7 @@ const placeholders = computed(() => {
     email: 'емаил',
     file: '',
     radio: '',
-    search: 'поиск',
+    search: 'Ctrl K',
     reset: '',
     submit: '',
   }
