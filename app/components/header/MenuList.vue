@@ -1,5 +1,5 @@
 <template>
-  <div @click="showMenu = !showMenu" class="md:hidden max-md:mr-10">
+  <div @mouseenter="showMenu = true" @mouseleave="showMenu = false" class="md:hidden max-md:mr-10">
     <div class="flex flex-col gap-2 cursor-pointer">
       <p class="w-10 border opacity-60"></p>
       <p class="w-10 border opacity-60"></p>
@@ -10,7 +10,7 @@
         class="absolute">
       <ul :class="[base, variants.adaptive]">
         <li v-for="item in menu">
-          <NuxtLink :to="item.link" class="hover:text-primary">
+          <NuxtLink :to="item.link" :class="hover">
             {{ item.name }}
           </NuxtLink>
         </li>
@@ -23,7 +23,7 @@
   <nav class="md:flex hidden mx-5">
     <ul :class="[base, variants.row]">
       <li v-for="item in menu">
-        <NuxtLink :to="item.link" class="hover:text-primary">
+        <NuxtLink :to="item.link" :class="hover">
           {{ item.name }}
         </NuxtLink>
       </li>
@@ -38,7 +38,8 @@ import Inputs from "~/components/UI/inputs/Inputs.vue";
 
 const {data: menu} = await useFetch('/api/menu')
 
-const base = 'flex uppercase'
+const base = 'flex uppercase text-accent-foreground/70'
+const hover = 'hover:text-primary  hover:border-b text-xl'
 
 const variants = {
   row: 'items-center justify-around gap-5',

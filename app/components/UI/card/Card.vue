@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 rounded-2xl cursor-pointer
+  <div class="p-5 rounded-2xl cursor-pointer max-w-max
               border hover:border-accent-foreground
               bg-card hover:bg-accent
               text-accent-foreground hover:text-foreground">
