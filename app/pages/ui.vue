@@ -62,7 +62,7 @@ import Button from "~/components/UI/button/Button.vue";
 import Card from "~/components/UI/card/Card.vue";
 import Inputs from "~/components/UI/inputs/Inputs.vue";
 
-const imgSrc = 'https://play-lh.googleusercontent.com/cpWmdyzME_WxTe5CPluEmyym_zzAWrWvCEIdlZjXu9PGNO6mUPfkEgj6qsKwoedmaA'
+const imgSrc = 'https://images.wondershare.com/recoverit/article/2020/09/what-is-an-sd-card-3.jpg'
 const imgSrcGhost1 = 'https://i.etsystatic.com/24358244/r/il/ff9f77/4792398603/il_570xN.4792398603_19hw.jpg'
 const imgSrcGhost2 = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfYdweAGbTGl6xBNJqQF3IQYos7LrtdTNhVA&s'
 const imgSubDescription = 'https://mainfin.ru/images/cryptoCurrency/eth.png'
