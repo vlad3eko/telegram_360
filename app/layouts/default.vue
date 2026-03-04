@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-md:pr-2 max-md:pl-2">
+  <div class="bg-background">
     <slot/>
   </div>
 </template>

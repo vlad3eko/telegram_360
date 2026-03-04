@@ -14,8 +14,6 @@
             {{ item.name }}
           </NuxtLink>
         </li>
-        <Inputs type="search"/>
-        <Button variant="primary">Подключить</Button>
       </ul>
     </nav>
   </div>
@@ -43,7 +41,7 @@ const hover = 'hover:text-primary  hover:border-b text-xl'
 
 const variants = {
   row: 'items-center justify-around gap-5',
-  adaptive: 'flex-col gap-2 bg-card relative top-0 right-0 p-2 rounded-l rounded-b'
+  adaptive: 'flex-col gap-2 bg-сard relative top-0 right-0 p-2 rounded-l rounded-b'
 }
 
 const showMenu = ref<boolean>(false)

@@ -1,7 +1,3 @@
-.block {
-    @apply flex my-30 items-center justify-center
-}
-
 .block-el {
     @apply flex justify-center flex-wrap gap-5 items-center
 }

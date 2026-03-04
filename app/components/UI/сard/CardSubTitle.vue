@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 
-import type {ICardDescription} from "~/components/UI/card/CardDescription.vue";
+import type {ICardDescription} from "~/components/UI/сard/CardDescription.vue";
 
 export type ICardSubTitle = Pick<ICardDescription, 'cardSubTitle'>
 

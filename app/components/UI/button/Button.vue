@@ -32,7 +32,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 
 const classes = computed(() => {
-  const base = 'rounded-2xl px-6 py-2 tracking-widest font-bold uppercase border-2 border-primary w-fit'
+  const base = 'rounded-2xl px-5 py-3 tracking-widest font-bold uppercase border-2 border-primary w-fit'
 
   const variants = {
     primary: 'bg-primary hover:bg-primary-foreground text-primary-foreground hover:text-foreground cursor-pointer',

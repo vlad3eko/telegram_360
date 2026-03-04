@@ -27,9 +27,9 @@
 
 <script lang="ts" setup>
 
-import CardContent from "~/components/UI/card/CardContent.vue";
-import CardTitle from "~/components/UI/card/CardTitle.vue";
-import CardHeader from "~/components/UI/card/CardHeader.vue";
+import CardTitle from "~/components/UI/сard/CardTitle.vue";
+import CardHeader from "~/components/UI/сard/CardHeader.vue";
+import CardContent from "~/components/UI/сard/CardContent.vue";
 
 
 export interface ICard {

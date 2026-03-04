@@ -8,7 +8,7 @@
 
 <script lang="ts" setup>
 
-import type {ICard} from "~/components/UI/card/Card.vue";
+import type {ICard} from "~/components/UI/сard/Card.vue";
 
 export type ICardHeader = Pick<ICard, 'cardHeaderImg' | 'cardHeaderTitle' | 'cardHeaderStatus'>
 

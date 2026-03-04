@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import Button from "~/components/UI/button/Button.vue";
-import type {ICardContent} from "~/components/UI/card/CardContent.vue";
+import type {ICardContent} from "~/components/UI/сard/CardContent.vue";
 
 type ICardTrigger = Pick<ICardContent, 'cardTrigger'>
 

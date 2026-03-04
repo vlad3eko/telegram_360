@@ -1,5 +1,5 @@
 <template>
-    <span>{{ tweened.number.toFixed(0) }}</span>
+    <span >{{ tweened.number.toFixed(0) }}{{count.letter}}</span>
 </template>
 
 <script lang="ts" setup>
@@ -7,6 +7,7 @@ import gsap from 'gsap'
 
 interface ICount{
   count?: number | string
+  letter?: string
 }
 
 const count = defineProps<ICount>()

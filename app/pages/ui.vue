@@ -59,7 +59,7 @@
 <script lang="ts" setup>
 
 import Button from "~/components/UI/button/Button.vue";
-import Card from "~/components/UI/card/Card.vue";
+import Card from "~/components/UI/сard/Card.vue";
 import Inputs from "~/components/UI/inputs/Inputs.vue";
 
 const imgSrc = 'https://images.wondershare.com/recoverit/article/2020/09/what-is-an-sd-card-3.jpg'

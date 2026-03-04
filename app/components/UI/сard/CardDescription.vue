@@ -11,9 +11,9 @@
 </template>
 
 <script lang="ts" setup>
-import CardSubDescription from "~/components/UI/card/CardSubDescription.vue";
-import CardSubTitle from "~/components/UI/card/CardSubTitle.vue";
-import type {ICard} from "~/components/UI/card/Card.vue";
+import CardSubDescription from "~/components/UI/сard/CardSubDescription.vue";
+import CardSubTitle from "~/components/UI/сard/CardSubTitle.vue";
+import type {ICard} from "~/components/UI/сard/Card.vue";
 
 export type ICardDescription = Pick<ICard, 'cardSubTitle' | 'cardSubImage' | 'cardSubDescription'>
 

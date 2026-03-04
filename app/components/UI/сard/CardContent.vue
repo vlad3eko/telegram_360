@@ -13,9 +13,9 @@
 
 <script lang="ts" setup>
 
-import CardDescription from "~/components/UI/card/CardDescription.vue";
-import CardTrigger from "~/components/UI/card/CardTrigger.vue";
-import type {ICard} from "~/components/UI/card/Card.vue";
+import CardDescription from "~/components/UI/сard/CardDescription.vue";
+import CardTrigger from "~/components/UI/сard/CardTrigger.vue";
+import type {ICard} from "~/components/UI/сard/Card.vue";
 
 export type ICardContent = Pick<ICard, 'cardSubTitle' | 'cardSubImage'| 'cardSubDescription' | 'cardTrigger'>
 
