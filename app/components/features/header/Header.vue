@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="border col-start-2 col-span-2 row-span-3 row-start-1">
-        <NuxtImg src="/cards/image(1).png"/>
+        <Swiper/>
       </div>
     </div>
   </Section>
@@ -41,6 +41,7 @@ import Button from "~/components/UI/button/Button.vue";
 import Section from "~/components/features/Section.vue";
 import Counter from "~/components/UI/Counter.vue";
 import Menu from "~/components/features/header/Menu.vue";
+import Swiper from "~/components/UI/Swiper.vue";
 </script>
 
 <style scoped>
